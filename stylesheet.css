@@ -1,0 +1,38 @@
+
+#nav-bar {
+    background: lightgoldenrodyellow;
+    padding: 10px 10px;
+    border-radius: 10px;
+    border: groove;
+    border-color: darkkhaki;
+}
+
+#link {
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    font-family: 'Ropa Sans', sans-serif;
+
+}
+
+#nav-bar a:hover {
+    background-color: darkkhaki;
+    border: groove;
+    border-radius: 10px;
+    border-color: darkkhaki;
+}
+
+#nav-bar a.active {
+    background-color: darkkhaki;
+    color: darkkhaki;
+  
+ 
+}
+#product1 {
+    background-color: lightgoldenrodyellow;
+    margin
+}
+
+
+
