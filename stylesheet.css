@@ -1,4 +1,3 @@
-
 #nav-bar {
     background: lightgoldenrodyellow;
     padding: 10px 10px;
@@ -13,7 +12,6 @@
     text-decoration: none;
     color: black;
     font-family: 'Ropa Sans', sans-serif;
-
 }
 
 #nav-bar a:hover {
@@ -26,13 +24,9 @@
 #nav-bar a.active {
     background-color: darkkhaki;
     color: darkkhaki;
-  
- 
 }
+
 #product1 {
     background-color: lightgoldenrodyellow;
     margin
 }
-
-
-
