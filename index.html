@@ -1,63 +1,98 @@
-<!-- Utilizing stylesheet HTML below -->
+<!-- THE STYLESHEET LINK / ANY METADATA! -->
+<!DOCTYPE html>
+
 <head>
-<link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <title> Free Hosting Solutions! </title>
 </head>
-
-<div class="header">
-    <header id="header">
-        <!-- NEED A COMPANY PHOTO HERE FOR THE HEADER TO PASS TEST FOR FCC! -->
-      <img src="freehosttest.png" id="header-img" alt="company logo here">
-      <nav id="nav-bar" class="thenavbar">
-          <a href="#header" id="link"> Home </a> 
-          <a href="#price"  id="link"> Price of product </a>
-          <a href="#features" id="link"> Features </a>
-          <a href="#video" id="link"> Demonstration </a>
+<!-- NAV-BAR AND ASSOCIATED LINKS LOCATED HERE! MAKE SURE ID/CLASS IS CORRECT FOR FCC BEFORE SUBMIT ! -->
+<div class="nav">
+    <nav id="nav-bar">
+        <a class="nav-link" href="#pricing-section"> Pricing </a>
+        <a class="nav-link" href="#video"> Demonstration </a>
+        <a class="nav-link" href="#about-us"> About us </a>
     </nav>
-    </header>
 </div>
-<div class="video-container">
-    <!-- THIS NEEDS A VIDEO SOURCE, DO NOT FORGET! -->
-    <section id="video">
-      <iframe width="560" 
-      height="315" 
-      src="https://www.youtube.com/embed/htbY9-yggB0?start=1"
-       frameborder="0" 
-       allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
+<!-- HEADER AND COMPANY IMAGE LOCATED HERE, FIGURE OUT HOW TO GET IMAGE TO APPEAR ! -->
+<header id="header">
+    <div class="company-image">
+        <img id="header-img" src="" alt="Company image here! FREE HOSTING SOLUTIONS!" </div>
+</header>
+</div>
+<!-- IFRAME / COMPANY VIDEO LOCATED HERE, ID'S SEEM TO MATCH. -->
+<div class="video">
+    <div id="vid">
+        <!---The IFRAME element will be nested here with VIDEO for FCC TEST PASS!  -->
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/htbY9-yggB0?start=1" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen> </iframe>
+    </div>
+</div>
+
+<!-- INPUT AND EMAIL FIELD / SUBMIT BUTTON, REMEMBER TO LINK TO WHAT FCC PROVIDED! -->
+<div class="input-field">
+    <form id="form">
+        <h2> Enter your email here to get started on our buisness solutions! </h2>
+        <input type="email" id="email-input" placeholder="Enter your email here.">
+        <input type="submit" href="https://www.freecodecamp.com/email-submit" id="submit">
+    </form>
+</div>
+
+<!-- Pricing boxes and such to be added here! remember to link these with the NAV bar using the NAV ID'S-->
+<section id="pricing-section">
+    <div class="price-1">
+        <h2> FREE HOSTING </h2>
+        <div class="freeprice">
+            <ul>
+                <li id="headingprice1"> <b> Free Hosting Option </b> </li>
+                <li> 50GB Server limit </li>
+                <li> FTP file transfer avaliable</li>
+                <li> Free Hosting Solutions domain (.hs)</li>
+                <li> mySQL plugin avaliable</li>
+
+            </ul>
         </div>
-        <div class="email-field">
-          <form id="form">
-              <label id="email-label" for="email"> Enter your email for our news letter! </label>
-            <input type="email" placeholder="Enter your email address">
-            <input type="submit" id="submit-button" href="https://www.freecodecamp.com/email-submit">
-          </form>      
-          </div>
-        </section>
-        <section id="price">
-<div class="product" id="product1">
-    <div class="template">
-        <h2> Basic Hosting Package</h2>
-        <ol>
-          <li> <b>$20.00</b> </li>
-        </ol>
     </div>
-    <div class="product" id="product2">
-      <div class="template">
-        <h2> Intermediate Hosting Package</h2>
-        <ol></ol>
+    <div class="price-2">
+        <h2> PREMIUM HOSTING OPTION </h2>
+        <ul>
+            <li id="headingprice2"> <b> Premium Hosting Option </b> </li>
+            <li> 200GB Server limit</li>
+            <li> FTP file transfer avaliable</li>
+            <li> Custom domain (.com, .org, .net)</li>
+            <li> mySQL plugin avaliable</li>
+            <li> Free support from us!</li>
+            <li> Full root access for more control!</li>
+        </ul>
+    </div>
+
+
+    <div class="price-3">
+        <h2> PRO HOSTING OPTION </h2>
+        <ul>
+            <li id="headingprice3"> <b> Pro Hosting Option </b> </li>
+            <li> 10TB Server limit</li>
+            <li> FTP file transfer avaliable </li>
+            <li> Custom domain or domain transfers! </li>
+            <li> Option for multiple sites! </li>
+            <li> mySQL plugin avaliable </li>
+            <li> Free 24/7 server support from us! </li>
+            <li> Complete root and server control! </li>
+            <li> Best option for high traffic sites! </li>
+        </ul>
+    </div>
+</section>
+
+<section id="about-us">
+    <div class="about-container">
+        <h2>Who we are.</h2>
+        <p> We envisioned a hosting company that could solve the problems of the everyday web developer! We wanted to create the tools that could power the web for years to come! We also wanted to provide other companies with a suitable and yet realiable
+            service that could withstand the high traffic of users and data. This is <b>WHO WE ARE.</b>
+        </p>
 
     </div>
+</section>
+
+<section id="footer-end">
+    <div id="footer-div">
+        <footer id="footer"> © Copyright FREE HOSTING SOLUTIONS 2019 - 2020 </footer>
     </div>
-    <div class="product" id="product3">
-      <div>
-    </div>
-</div>
-
-
-
-
-
-
-
-
 </section>

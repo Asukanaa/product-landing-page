@@ -1,32 +1,68 @@
 #nav-bar {
-    background: lightgoldenrodyellow;
-    padding: 10px 10px;
-    border-radius: 10px;
-    border: groove;
-    border-color: darkkhaki;
+    background-color: lightslategray;
+    padding: 10px;
+    top: 100%;
+    width: 100%;
+    font-family: monospace;
 }
 
-#link {
-    padding: 10px;
-    text-align: center;
+#nav-bar a {
     text-decoration: none;
     color: black;
-    font-family: 'Ropa Sans', sans-serif;
+    text-align: center;
 }
 
 #nav-bar a:hover {
-    background-color: darkkhaki;
+    background-color: darkgray;
+    display: fixed;
+    padding: 0px;
+}
+
+#header {
+    padding: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#footer {
+    text-align: center;
+    font-family: monospace;
+}
+
+.price-1 {
+    text-align: center;
     border: groove;
-    border-radius: 10px;
-    border-color: darkkhaki;
+    display: flexbox;
 }
 
-#nav-bar a.active {
-    background-color: darkkhaki;
-    color: darkkhaki;
+.price-1 li {
+    list-style-type: none;
 }
 
-#product1 {
-    background-color: lightgoldenrodyellow;
-    margin
+.input-field {
+    text-align: center;
+}
+
+#submit {
+    text-align: center;
+    background-color: #e7e7e7;
+    color: black;
+    margin-top: 15px;
+    border-radius: 5px;
+    padding: 10px 25px;
+    display: inline-block;
+    font-size: 16px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+}
+
+input[type=email] {
+    border: 10px black;
+    border-radius: 4px;
+    box-sizing: border-box;
+    padding: 12px 40px;
+    width: 100%;
+    cursor: pointer;
+    background: lightgray;
 }
