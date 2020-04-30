@@ -1,9 +1,13 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
 #nav-bar {
     background-color: lightslategray;
     padding: 10px;
     top: 100%;
     width: 100%;
-    font-family: monospace;
+    font-family: 'Roboto', sans-serif;
 }
 
 #nav-bar a {
@@ -26,13 +30,13 @@
 
 #footer {
     text-align: center;
-    font-family: monospace;
+    font-family: 'Roboto', sans-serif;
 }
 
 .price-1 {
     text-align: center;
     border: groove;
-    display: flexbox;
+    display: table;
 }
 
 .price-1 li {
@@ -61,8 +65,25 @@ input[type=email] {
     border: 10px black;
     border-radius: 4px;
     box-sizing: border-box;
-    padding: 12px 40px;
-    width: 100%;
+    padding: 12px 30px;
+    width: 50%;
     cursor: pointer;
     background: lightgray;
+    margin-bottom: 60px;
+}
+
+.video {
+    text-align: center;
+}
+
+#freehostingH2 {
+    background-color: lightgray;
+    padding: 25px 25px 25px 25px;
+}
+
+#email-h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+
 }
