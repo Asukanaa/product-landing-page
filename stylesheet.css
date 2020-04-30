@@ -33,20 +33,6 @@ body {
     font-family: 'Roboto', sans-serif;
 }
 
-.price-1 {
-    text-align: center;
-    border: groove;
-    display: table;
-}
-
-.price-1 li {
-    list-style-type: none;
-}
-
-.input-field {
-    text-align: center;
-}
-
 #submit {
     text-align: center;
     background-color: #e7e7e7;
@@ -65,8 +51,7 @@ input[type=email] {
     border: 10px black;
     border-radius: 4px;
     box-sizing: border-box;
-    padding: 12px 30px;
-    width: 50%;
+    padding: 12px 100px;
     cursor: pointer;
     background: lightgray;
     margin-bottom: 60px;
@@ -86,4 +71,51 @@ input[type=email] {
 }
 
 
+/* Pricing boxes are found below here ! Make sure to include flex for test pass !*/
+
+#pricing-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.option {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    border: 5px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    width: calc(100% / 3);
+}
+
+.option>button {
+    border: 0px;
+    background-color: lightgray;
+    border-radius: 5px;
+    width: 100px;
+    height: 50px;
+    cursor: pointer;
+    margin: 15px 0;
+}
+
+.option>h2 {
+    margin-top: 20px;
+}
+
+.option>ul {
+    padding: 10px 0;
+}
+
+.option>ul>li {
+    padding: 5px o;
+}
+
+.option>.package-level {
+    margin-top: 15px;
+    width: 100%;
+    background-color: lightgray;
+    padding: 10px 0;
 }
